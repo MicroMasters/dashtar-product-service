@@ -1,0 +1,10 @@
+version: "3"
+services:
+  dashtarProductService:
+    build:
+      context: ./dashtarProductService
+      dockerfile: Dockerfile
+    ports:
+      -8080:5055
+    volumes:
+      -./dashtarProductService:/app 
