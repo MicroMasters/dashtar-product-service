@@ -30,7 +30,7 @@ app.use(helmet());
 app.use(cors());
 
 //root route
-app.get("/", (req, res) => {
+app.get("/product", (req, res) => {
   res.send("App works properly!");
 });
 
